@@ -42,7 +42,8 @@
         "sancovp/aisaac-mcp",
         "sancovp/starsystem-mcp",
         "sancovp/mcpify",
-        "sancovp/context-alignment-mcp"
+        "sancovp/context-alignment-mcp",
+        "sancovp/content-automation-mcp"
       ],
       "auto_discover": false,
       "show_stats": true

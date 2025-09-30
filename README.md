@@ -134,6 +134,13 @@ Anti-hallucination MCP extending crawl4ai with deep AST dependency analysis for 
 
 ⭐ 0 stars
 
+### [content-automation-mcp](https://github.com/sancovp/content-automation-mcp)
+Automated Video Production for AI Agent Demonstrations - Part of STARSYSTEM
+
+![Stars](https://img.shields.io/github/stars/sancovp/content-automation-mcp.svg?style=social) ![Updated](https://img.shields.io/badge/updated-2025-09-30-lightgrey.svg)
+
+⭐ 0 stars
+
 ---
 
-*Generated automatically on 2025-09-30 10:25:39 UTC*
+*Generated automatically on 2025-09-30 10:35:18 UTC*
