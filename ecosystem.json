@@ -1,52 +1,60 @@
 {
-  "name": "STARSYSTEM Compound Intelligence Ecosystem",
-  "description": "A comprehensive ecosystem of interconnected MCP servers and libraries that enable compound intelligence through systematic thinking, knowledge management, and cognitive architectures.",
-  "template": "ecosystem",
-  "badges": {
-    "version": true,
-    "stars": true,
-    "last_updated": true,
-    "license": true
-  },
-  "links": {
-    "Documentation": "https://github.com/sancovp/starsystem-metarepo/wiki",
-    "Getting Started": "https://github.com/sancovp/starsystem-metarepo#getting-started",
-    "Contributing": "https://github.com/sancovp/starsystem-metarepo/blob/main/CONTRIBUTING.md"
-  },
+  "name": "STARSYSTEM Ecosystem",
+  "description": "Compound Intelligence Operating System - Complete framework for systematic thinking, knowledge management, and cognitive architectures",
+  "type": "ecosystem_meta",
   "sections": {
     "Core Framework & Intelligence": {
-      "description": "Foundational systems that provide the base infrastructure and intelligence capabilities for the entire STARSYSTEM ecosystem.",
+      "description": "Foundational systems that provide the base infrastructure and intelligence capabilities for the entire STARSYSTEM ecosystem",
       "repos": [
         "sancovp/heaven-framework",
         "sancovp/brain-agent", 
         "sancovp/giint-llm-intelligence"
-      ]
+      ],
+      "auto_discover": false,
+      "show_stats": true
     },
     "Core Libraries": {
-      "description": "Essential libraries providing specialized functionality for systematic thinking, data modeling, and discovery workflows.",
+      "description": "Essential libraries providing specialized functionality for systematic thinking, data modeling, and discovery workflows",
       "repos": [
         "sancovp/emergence-engine",
         "sancovp/pydantic-stack-core",
         "sancovp/payload-discovery"
-      ]
+      ],
+      "auto_discover": false,
+      "show_stats": true
     },
     "STARSYSTEM Navigation & Knowledge": {
-      "description": "Systems for project navigation, knowledge management, and compound intelligence orchestration within the STARSYSTEM.",
+      "description": "Systems for project navigation, knowledge management, and compound intelligence orchestration within the STARSYSTEM",
       "repos": [
         "sancovp/starlog-mcp",
         "sancovp/carton-mcp",
         "sancovp/starship-mcp",
         "sancovp/flightsim-mcp",
         "sancovp/toot-mcp"
-      ]
+      ],
+      "auto_discover": false,
+      "show_stats": true
     },
     "Meta & Development Systems": {
-      "description": "High-level orchestration and development tools for working with the entire STARSYSTEM ecosystem and MCP development.",
+      "description": "High-level orchestration and development tools for working with the entire STARSYSTEM ecosystem and MCP development",
       "repos": [
         "sancovp/starsystem-mcp",
         "sancovp/mcpify",
         "sancovp/context-alignment"
-      ]
+      ],
+      "auto_discover": false,
+      "show_stats": true
     }
+  },
+  "template": "ecosystem",
+  "auto_update": true,
+  "badges": {
+    "license": true,
+    "version": true,
+    "stars": true,
+    "last_updated": true
+  },
+  "links": {
+    "Community": "https://www.skool.com/sanctum-ai-human-symbiosis-8333/about"
   }
 }
