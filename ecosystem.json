@@ -40,7 +40,7 @@
       "repos": [
         "sancovp/starsystem-mcp",
         "sancovp/mcpify",
-        "sancovp/context-alignment"
+        "sancovp/context-alignment-mcp"
       ],
       "auto_discover": false,
       "show_stats": true
