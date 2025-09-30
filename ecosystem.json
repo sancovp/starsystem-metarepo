@@ -39,6 +39,7 @@
     "Meta & Development Systems": {
       "description": "High-level orchestration and development tools for working with the entire STARSYSTEM ecosystem and MCP development",
       "repos": [
+        "sancovp/aisaac-mcp",
         "sancovp/starsystem-mcp",
         "sancovp/mcpify",
         "sancovp/context-alignment-mcp"

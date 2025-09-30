@@ -106,6 +106,13 @@ TOOT MCP - Train of Operadic Thought context capture system for STARSYSTEM
 
 High-level orchestration and development tools for working with the entire STARSYSTEM ecosystem and MCP development
 
+### [aisaac-mcp](https://github.com/sancovp/aisaac-mcp)
+AIsaac - Isaac's Methodology as a Conversational AI Agent (Meta-MCP for STARSYSTEM)
+
+![Stars](https://img.shields.io/github/stars/sancovp/aisaac-mcp.svg?style=social) ![Updated](https://img.shields.io/badge/updated-2025-09-30-lightgrey.svg)
+
+⭐ 0 stars
+
 ### [starsystem-mcp](https://github.com/sancovp/starsystem-mcp)
 STARSYSTEM MCP - Meta-orchestration and compound intelligence coordination for the STARSYSTEM ecosystem
 
@@ -129,4 +136,4 @@ Anti-hallucination MCP extending crawl4ai with deep AST dependency analysis for 
 
 ---
 
-*Generated automatically on 2025-09-30 09:43:12 UTC*
+*Generated automatically on 2025-09-30 10:25:39 UTC*
