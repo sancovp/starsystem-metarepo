@@ -60,6 +60,13 @@ System for creating numbered instruction sequences that agents can systematicall
 
 Systems for project navigation, knowledge management, and compound intelligence orchestration within the STARSYSTEM
 
+### [seed-mcp](https://github.com/sancovp/seed-mcp)
+SEED MCP - Unified System Identity and Publishing Platform for Compound Intelligence
+
+![Stars](https://img.shields.io/github/stars/sancovp/seed-mcp.svg?style=social) ![Updated](https://img.shields.io/badge/updated-2025-09-30-lightgrey.svg)
+
+⭐ 0 stars
+
 ### [starlog-mcp](https://github.com/sancovp/starlog-mcp)
 STARLOG MCP - Session, Task, and Activity Record LOG system for Claude Code integration
 
@@ -122,4 +129,4 @@ Anti-hallucination MCP extending crawl4ai with deep AST dependency analysis for 
 
 ---
 
-*Generated automatically on 2025-09-30 07:52:38 UTC*
+*Generated automatically on 2025-09-30 09:43:12 UTC*

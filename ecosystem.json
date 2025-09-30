@@ -26,6 +26,7 @@
     "STARSYSTEM Navigation & Knowledge": {
       "description": "Systems for project navigation, knowledge management, and compound intelligence orchestration within the STARSYSTEM",
       "repos": [
+        "sancovp/seed-mcp",
         "sancovp/starlog-mcp",
         "sancovp/carton-mcp",
         "sancovp/starship-mcp",
