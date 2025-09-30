@@ -43,7 +43,8 @@
         "sancovp/starsystem-mcp",
         "sancovp/mcpify",
         "sancovp/context-alignment-mcp",
-        "sancovp/content-automation-mcp"
+        "sancovp/content-automation-mcp",
+        "sancovp/repo-pattern-analyzer"
       ],
       "auto_discover": false,
       "show_stats": true
