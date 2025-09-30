@@ -1,0 +1,52 @@
+{
+  "name": "STARSYSTEM Compound Intelligence Ecosystem",
+  "description": "A comprehensive ecosystem of interconnected MCP servers and libraries that enable compound intelligence through systematic thinking, knowledge management, and cognitive architectures.",
+  "template": "ecosystem",
+  "badges": {
+    "version": true,
+    "stars": true,
+    "last_updated": true,
+    "license": true
+  },
+  "links": {
+    "Documentation": "https://github.com/sancovp/starsystem-metarepo/wiki",
+    "Getting Started": "https://github.com/sancovp/starsystem-metarepo#getting-started",
+    "Contributing": "https://github.com/sancovp/starsystem-metarepo/blob/main/CONTRIBUTING.md"
+  },
+  "sections": {
+    "Core Framework & Intelligence": {
+      "description": "Foundational systems that provide the base infrastructure and intelligence capabilities for the entire STARSYSTEM ecosystem.",
+      "repos": [
+        "sancovp/heaven-framework",
+        "sancovp/brain-agent", 
+        "sancovp/giint-llm-intelligence"
+      ]
+    },
+    "Core Libraries": {
+      "description": "Essential libraries providing specialized functionality for systematic thinking, data modeling, and discovery workflows.",
+      "repos": [
+        "sancovp/emergence-engine",
+        "sancovp/pydantic-stack-core",
+        "sancovp/payload-discovery"
+      ]
+    },
+    "STARSYSTEM Navigation & Knowledge": {
+      "description": "Systems for project navigation, knowledge management, and compound intelligence orchestration within the STARSYSTEM.",
+      "repos": [
+        "sancovp/starlog-mcp",
+        "sancovp/carton-mcp",
+        "sancovp/starship-mcp",
+        "sancovp/flightsim-mcp",
+        "sancovp/toot-mcp"
+      ]
+    },
+    "Meta & Development Systems": {
+      "description": "High-level orchestration and development tools for working with the entire STARSYSTEM ecosystem and MCP development.",
+      "repos": [
+        "sancovp/starsystem-mcp",
+        "sancovp/mcpify",
+        "sancovp/context-alignment"
+      ]
+    }
+  }
+}

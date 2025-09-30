@@ -1,0 +1,83 @@
+name: Update Ecosystem README
+
+on:
+  push:
+    paths:
+      - 'ecosystem.json'
+  schedule:
+    # Update daily at 6 AM UTC to refresh repo stats
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Allow manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+    
+    - name: Download README generator
+      run: |
+        # Download the generator script from the BML system repo
+        curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+             -H "Accept: application/vnd.github.v3.raw" \
+             -o generate_ecosystem_readme.py \
+             "https://api.github.com/repos/sancovp/heaven-bml-system/contents/github_workflows/generate_ecosystem_readme.py" || \
+        # Fallback: use local script if available
+        cp .github/workflows/generate_ecosystem_readme.py . 2>/dev/null || \
+        echo "README generator not found - ecosystem README updates disabled"
+    
+    - name: Generate README
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python generate_ecosystem_readme.py ecosystem.json
+    
+    - name: Check for changes
+      id: changes
+      run: |
+        if git diff --quiet README.md; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push changes
+      if: steps.changes.outputs.changed == 'true'
+      run: |
+        git config --local user.email "ecosystem-bot@heaven-bml.com"
+        git config --local user.name "Ecosystem Bot"
+        git add README.md
+        git commit -m "Auto-update README.md from ecosystem.json
+        
+        Generated on $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+        
+        🤖 This commit was generated automatically by the ecosystem README updater."
+        git push
+    
+    - name: Create summary
+      if: steps.changes.outputs.changed == 'true'
+      run: |
+        echo "✅ README.md updated successfully!" >> $GITHUB_STEP_SUMMARY
+        echo "📊 Repository data refreshed from GitHub API" >> $GITHUB_STEP_SUMMARY
+        echo "🔄 Changes committed and pushed" >> $GITHUB_STEP_SUMMARY
+    
+    - name: No changes summary
+      if: steps.changes.outputs.changed == 'false'
+      run: |
+        echo "ℹ️ No changes detected in README.md" >> $GITHUB_STEP_SUMMARY
+        echo "📊 Repository data is up to date" >> $GITHUB_STEP_SUMMARY
