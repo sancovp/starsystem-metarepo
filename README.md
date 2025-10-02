@@ -13,7 +13,7 @@ Foundational systems that provide the base infrastructure and intelligence capab
 ### [heaven-framework](https://github.com/sancovp/heaven-framework)
 Foundation framework for HEAVEN ecosystem - AI agent infrastructure with unified context engineering
 
-![License](https://img.shields.io/badge/license-MIT License-blue.svg) ![Stars](https://img.shields.io/github/stars/sancovp/heaven-framework.svg?style=social) ![Updated](https://img.shields.io/badge/updated-2025-09-30-lightgrey.svg)
+![License](https://img.shields.io/badge/license-MIT License-blue.svg) ![Stars](https://img.shields.io/github/stars/sancovp/heaven-framework.svg?style=social) ![Updated](https://img.shields.io/badge/updated-2025_09_30-lightgrey.svg)
 
 ⭐ 0 stars
 
