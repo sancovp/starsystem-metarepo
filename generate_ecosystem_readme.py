@@ -68,7 +68,7 @@ def generate_badges(repo_data: Dict[str, Any], config: Dict[str, Any]) -> str:
     repo_name = repo_data['full_name']
     
     if badge_config.get('license') and repo_data.get('license'):
-        license_name = repo_data['license']['name']
+        license_name = repo_data['license']['name'].replace(' ', '_')
         badges.append(f'![License](https://img.shields.io/badge/license-{license_name}-blue.svg)')
     
     if badge_config.get('version') and repo_data.get('latest_release'):
@@ -80,7 +80,7 @@ def generate_badges(repo_data: Dict[str, Any], config: Dict[str, Any]) -> str:
         badges.append(f'![Stars](https://img.shields.io/github/stars/{repo_name}.svg?style=social)')
     
     if badge_config.get('last_updated'):
-        updated = repo_data['updated_at'][:10]  # YYYY-MM-DD format
+        updated = repo_data['updated_at'][:10].replace('-', '_')  # YYYY_MM_DD format
         badges.append(f'![Updated](https://img.shields.io/badge/updated-{updated}-lightgrey.svg)')
     
     if badge_config.get('issue_count') and 'open_issues_count' in repo_data:
