@@ -1,6 +1,6 @@
 # STARSYSTEM Ecosystem
 
-![STARSYSTEM Ecosystem](https://raw.githubusercontent.com/sancovp/starsystem-metarepo/master/logo.png)
+![STARSYSTEM Ecosystem](https://raw.githubusercontent.com/sancovp/starsystem-metarepo/master/starsystem_small.png)
 
 Compound Intelligence Operating System - Complete framework for systematic thinking, knowledge management, and cognitive architectures
 
@@ -152,4 +152,4 @@ Automated Pattern Discovery and Course Generation for Compound Intelligence Syst
 
 ---
 
-*Generated automatically on 2025-10-03 12:59:29 UTC*
+*Generated automatically on 2025-10-03 13:01:11 UTC*
