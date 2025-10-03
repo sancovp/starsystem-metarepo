@@ -123,9 +123,15 @@ def generate_readme(config: Dict[str, Any], github_token: str) -> str:
     ecosystem_name = config['name']
     description = config['description']
     template_type = config.get('template', 'ecosystem')
-    
+
     # Header
     readme = f"# {ecosystem_name}\n\n"
+
+    # Add landing image if configured (optional)
+    landing_image = config.get('landing_image')
+    if landing_image:
+        readme += f"![{ecosystem_name}]({landing_image})\n\n"
+
     readme += f"{description}\n\n"
     
     # Add links if configured
