@@ -1,5 +1,7 @@
 # STARSYSTEM Ecosystem
 
+![STARSYSTEM Ecosystem](https://raw.githubusercontent.com/sancovp/starsystem-metarepo/master/logo.png)
+
 Compound Intelligence Operating System - Complete framework for systematic thinking, knowledge management, and cognitive architectures
 
 ## Quick Links
@@ -84,7 +86,7 @@ CartOn MCP - Knowledge graph mapping for concept networks with Neo4j backend
 ### [starship-mcp](https://github.com/sancovp/starship-mcp)
 STARSHIP MCP - Flight configuration and mission orchestration for STARSYSTEM compound intelligence
 
-![Stars](https://img.shields.io/github/stars/sancovp/starship-mcp.svg?style=social) ![Updated](https://img.shields.io/badge/updated-2025_09_30-lightgrey.svg)
+![Stars](https://img.shields.io/github/stars/sancovp/starship-mcp.svg?style=social) ![Updated](https://img.shields.io/badge/updated-2025_10_03-lightgrey.svg)
 
 ⭐ 0 stars
 
@@ -150,4 +152,4 @@ Automated Pattern Discovery and Course Generation for Compound Intelligence Syst
 
 ---
 
-*Generated automatically on 2025-10-02 04:23:05 UTC*
+*Generated automatically on 2025-10-03 12:59:29 UTC*
