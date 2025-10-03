@@ -1,6 +1,7 @@
 {
   "name": "STARSYSTEM Ecosystem",
   "description": "Compound Intelligence Operating System - Complete framework for systematic thinking, knowledge management, and cognitive architectures",
+  "landing_image": "https://raw.githubusercontent.com/sancovp/starsystem-metarepo/master/logo.png",
   "type": "ecosystem_meta",
   "sections": {
     "Core Framework & Intelligence": {
